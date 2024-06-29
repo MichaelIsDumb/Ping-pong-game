@@ -109,7 +109,7 @@ def main_game():
     lose = font2.render('YOU LOSE', True, (255, 0, 0))
 
     # Music
-    mixer.music.load('Seemefall.mp3')
+    mixer.music.load('Seemefall.mp3') #doesn't work right now, there is some copyright issue with the music
     mixer.music.play()
 
     # Running loop
